@@ -1,0 +1,62 @@
+
+.text{
+  text-align: center;
+  margin-top: 150px;
+  color: aqua;
+}
+
+.logo{
+  text-align: left; 
+  margin-left: 100px;
+  color: black;
+ }
+
+ .h4{
+  text-align: left; 
+  margin-left: 45px;
+ }
+
+ .h6{
+  text-align: left; 
+  margin-left: 70px;
+  color: black;
+ }
+
+/* Style untuk CSS Grid */
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Membagi form menjadi 2 kolom dengan lebar yang sama */
+  gap: 10px; /* Spasi antara input di dalam form */
+}
+
+/* Style untuk bagian kiri form */
+.leftForm {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style untuk bagian kanan form */
+.rightForm {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style untuk input di dalam form */
+.leftForm input,
+.rightForm input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Style untuk placeholder */
+.leftForm input::placeholder,
+.rightForm input::placeholder {
+  color: #999;
+}
+
+.pp{
+  background-color: aqua;
+  
+}
